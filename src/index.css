@@ -1,0 +1,7 @@
+@import './styles/normalize.css';
+@import './styles/global.css';
+
+body {
+  background-color: #ebeef3;
+  font-family: 'Inter', sans-serif;
+}

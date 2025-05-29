@@ -1,0 +1,97 @@
+.content {
+  display: grid;
+  grid-template-columns: 680px auto;
+  padding: 15px;
+}
+.articleItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.articleTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  vertical-align: middle;
+  color: rgb(24, 144, 255);
+}
+.articleTags {
+  display: flex;
+  gap: 8px;
+  height: 20px;
+}
+.description {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: left;
+}
+.articleInfo {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+  flex-direction: column;
+}
+.articleAuthor {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.articleAuthorImg {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.createdDate {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0;
+  vertical-align: middle;
+  color: #00000080;
+}
+.articleAuthorInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.editingPanel {
+  display: flex;
+  gap: 12px;
+}
+.deleteButton {
+  color: rgba(245, 34, 45, 1);
+  border: 1px solid rgba(245, 34, 45, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0;
+  vertical-align: middle;
+  width: 78px;
+  height: 31px;
+  position: relative;
+}
+.editButton {
+  color: rgba(82, 196, 26, 1);
+  border: 1px solid rgba(82, 196, 26, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0;
+  vertical-align: middle;
+  width: 65px;
+  height: 31px;
+}
+.alertPosition {
+  transform: translateX(85px) translateY(-5px);
+}

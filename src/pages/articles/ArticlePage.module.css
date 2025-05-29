@@ -1,0 +1,22 @@
+.container {
+  width: 1000px;
+  background-color: white;
+  box-shadow: 0 4px 12px 0 #00000026;
+  place-content: center;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+.deleteBtn {
+  color: rgba(245, 34, 45, 1);
+  border: 1px solid rgba(245, 34, 45, 1);
+}
+.editButton {
+  border: 1px solid rgba(82, 196, 26, 1);
+  color: rgba(82, 196, 26, 1);
+}
+.buttonsBlock {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,74 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 384px;
+  padding: 50px 30px;
+  gap: 20px;
+  box-shadow:
+    0 0.61px 2.93px rgba(0, 0, 0, 0.0197),
+    0 1.46px 7.05px rgba(0, 0, 0, 0.0283),
+    0 2.75px 13.27px rgba(0, 0, 0, 0.035),
+    0 4.91px 23.68px rgba(0, 0, 0, 0.0417),
+    0 9.19px 44.28px rgba(0, 0, 0, 0.0503),
+    0 0.22px 106px rgba(0, 0, 0, 0.07);
+
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 6px;
+}
+.formError {
+  color: red;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0;
+}
+.formTitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #262626;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: start;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2px;
+}
+.formLabel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+.formInput {
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 4px;
+  height: 40px;
+}
+.formConfirm {
+  display: flex;
+  align-items: baseline;
+}
+.link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+}
+.formInputError {
+  border: 1px solid rgba(245, 34, 45, 1);
+}

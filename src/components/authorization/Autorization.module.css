@@ -1,0 +1,50 @@
+.authorization {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+.signUp {
+  border: 1px solid rgba(82, 196, 26, 1);
+  border-radius: 5px;
+  color: rgba(82, 196, 26, 1);
+  padding: 5px 15px;
+}
+.newArticle {
+  border: 1px solid rgba(82, 196, 26, 1);
+  border-radius: 5px;
+  color: rgba(82, 196, 26, 1);
+  padding: 5px 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.logUotButton {
+  background-color: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  padding: 6px 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+.avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
